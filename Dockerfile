@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER Usman Ismail "usman@techtraits.com"
+MAINTAINER Chris Imeson "chris.imeson@insight.com"
 
 RUN apt-get update && apt-get clean
 RUN apt-get install -q -y openjdk-7-jre-headless && apt-get clean
